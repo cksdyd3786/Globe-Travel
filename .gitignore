@@ -1,0 +1,36 @@
+# 비밀값: API 키·DB 비밀번호는 환경변수로만 관리한다(NFR-10). 예시 파일만 커밋한다.
+.env
+.env.*
+!.env.example
+
+# 로컬 설정
+*.local
+application-local.yml
+application-local.yaml
+application-local.properties
+.claude/settings.local.json
+
+# 의존성
+node_modules/
+
+# 빌드 결과물
+dist/
+dist-ssr/
+build/
+out/
+target/
+.gradle/
+coverage/
+*.tsbuildinfo
+
+# 로그
+*.log
+logs/
+
+# 에디터·OS
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
